@@ -13,4 +13,6 @@ if __name__ == '__main__':
     count = collections.Counter(x).most_common(3) 
     for char , n in count:
         print(char , n)
-        #creates a list of tuples with the most common characters and their counts, and prints them in the required format.
+        
+'''creates a list of tuples with
+   the most common characters and their counts, and prints them in the required format.'''
